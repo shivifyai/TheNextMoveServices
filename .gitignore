@@ -1,0 +1,9 @@
+# Original source material (client document and brochure scans), kept out of the repo
+client.pdf
+page-*.jpeg
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
