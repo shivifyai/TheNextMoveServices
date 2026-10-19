@@ -35,6 +35,8 @@
     "@type": "LocalBusiness",
     "name": "The Next Move Services",
     "slogan": "The Next Level Service",
+    "logo": "https://thenextmoveservices.com/assets/logo.png",
+    "image": "https://thenextmoveservices.com/assets/og-image.jpg",
     "url": "https://thenextmoveservices.com/",
     "telephone": "+91 78421 96419",
     "email": "thenextmoveservices@gmail.com",
@@ -54,10 +56,6 @@
 <!-- reused drawings -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <symbol id="mark" viewBox="0 0 100 50">
-      <path d="M50 25C38 7 7 7 7 25s31 18 43 0 43-18 43 0-31 18-43 0Z" fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round"/>
-      <path d="M50 25C38 7 7 7 7 25s31 18 43 0 43-18 43 0-31 18-43 0Z" fill="none" stroke="#15130f" stroke-width="1.2" stroke-dasharray="3.5 3"/>
-    </symbol>
     <symbol id="check" viewBox="0 0 28 28">
       <circle cx="14" cy="14" r="13" fill="currentColor"/>
       <path d="M8.5 14.5l3.6 3.6 7.4-8" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -67,8 +65,8 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="#home" style="color: var(--gold)">
-      <svg aria-hidden="true"><use href="#mark"/></svg>
+    <a class="brand" href="#home">
+      <img class="brand-logo" src="assets/logo-small.png" alt="" width="160" height="79">
       <span class="brand-name" style="color: var(--band-fg)">The Next Move Services<small>The Next Level Service</small></span>
     </a>
     <nav class="site-nav" aria-label="Main">
@@ -101,8 +99,8 @@
               <a class="btn btn-ghost" href="#contact">Talk to us</a>
             </div>
           </div>
-          <div class="hero-mark" style="color: var(--gold)">
-            <svg viewBox="0 0 100 50" role="img" aria-label="The Next Move Services emblem"><use href="#mark"/></svg>
+          <div class="hero-mark">
+            <img src="assets/logo.png" alt="The Next Move Services logo: a road in the shape of an infinity sign joining companies and service providers" width="720" height="357">
             <p>Companies &amp; Service Providers<br>under one roof</p>
           </div>
         </div>
@@ -126,6 +124,7 @@
 
       <div class="services">
         <article class="service">
+          <img class="service-photo" src="assets/service-transport.jpg" alt="Crew loading parcels into a box truck at a warehouse loading dock" width="1000" height="655" loading="lazy">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 6.5h11.5v10H2.5zM14 10h4.2l3.3 3.4v3.1H14z"/><circle cx="6.5" cy="17.5" r="1.9" fill="var(--brass-soft)"/><circle cx="17.5" cy="17.5" r="1.9" fill="var(--brass-soft)"/></svg>
           </div>
@@ -139,6 +138,7 @@
         </article>
 
         <article class="service">
+          <img class="service-photo" src="assets/service-warehouse.jpg" alt="Warehouse staff scanning stock beside racking while a forklift moves a pallet" width="1000" height="646" loading="lazy">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8l8.2 4.6v9.2L12 21.2l-8.2-4.6V7.4zM3.8 7.4L12 12l8.2-4.6M12 12v9.2"/></svg>
           </div>
@@ -152,6 +152,7 @@
         </article>
 
         <article class="service">
+          <img class="service-photo" src="assets/service-manpower.jpg" alt="Team of workers in hard hats and safety vests at a construction site" width="1000" height="654" loading="lazy">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M2.8 20.5c0-3.4 2.8-6.2 6.2-6.2s6.2 2.8 6.2 6.2"/><circle cx="17.2" cy="9" r="2.5"/><path d="M15.8 14.4c3 .3 5.4 2.8 5.4 6"/></svg>
           </div>
@@ -165,6 +166,7 @@
         </article>
 
         <article class="service">
+          <img class="service-photo" src="assets/site-tower.jpg" alt="Batching plant tower inside an industrial shed with cement bags stacked on the floor" width="473" height="357" loading="lazy">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V4.5M3 21h7M6 5h14.5M6 9.5l4.5-4.5M18 5v5"/><path d="M16.2 10h3.6v3.2h-3.6z"/></svg>
           </div>
@@ -178,6 +180,7 @@
         </article>
 
         <article class="service">
+          <img class="service-photo" src="assets/service-maintenance.jpg" alt="Electrician, plumber and facility staff working with their tool kits" width="1000" height="658" loading="lazy">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M14.6 6.2a4.2 4.2 0 0 0-5.5 5.5L3 17.8 6.2 21l6.1-6.1a4.2 4.2 0 0 0 5.5-5.5l-2.6 2.6-2.5-.6-.6-2.5z"/></svg>
           </div>
@@ -249,10 +252,13 @@
 
   <section class="section" id="compliance">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Business services</p>
-        <h2>Registrations and compliance, handled</h2>
-        <p>We take care of the filings so you can focus on running the business.</p>
+      <div class="split-head">
+        <div class="section-head">
+          <p class="eyebrow">Business services</p>
+          <h2>Registrations and compliance, handled</h2>
+          <p>We take care of the filings so you can focus on running the business. One consultant follows each registration from documents to approval.</p>
+        </div>
+        <img class="split-photo" src="assets/compliance-consulting.jpg" alt="Consultants reviewing GST returns and an FSSAI licence application with a client" width="1000" height="657" loading="lazy">
       </div>
       <div class="compliance">
         <div>

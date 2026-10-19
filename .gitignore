@@ -7,3 +7,6 @@ page-*.jpeg
 Thumbs.db
 desktop.ini
 .vscode/
+
+# Original WhatsApp photos; web-ready copies live in site/assets/
+site images/
